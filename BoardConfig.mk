@@ -1,5 +1,5 @@
 # Use the non-open-source part, if present
--include vendor/mediateksample/k39tv1_64_bsp/BoardConfigVendor.mk
+-include vendor/wiite/c7s/BoardConfigVendor.mk
 
 # Use the 6739 common part
 include device/mediatek/mt6739/BoardConfig.mk

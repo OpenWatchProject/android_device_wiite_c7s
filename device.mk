@@ -9,14 +9,14 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/meta_init.project.rc:$(TARGET_COPY_OUT_VENDO
 
 
 # Add FlashTool needed files
-#PRODUCT_COPY_FILES += device/mediateksample/$(MTK_TARGET_PROJECT)/EBR1:EBR1
-#ifneq ($(wildcard device/mediateksample/$(MTK_TARGET_PROJECT)/EBR2),)
-#  PRODUCT_COPY_FILES += device/mediateksample/$(MTK_TARGET_PROJECT)/EBR2:EBR2
+#PRODUCT_COPY_FILES += device/wiite/$(MTK_TARGET_PROJECT)/EBR1:EBR1
+#ifneq ($(wildcard device/wiite/$(MTK_TARGET_PROJECT)/EBR2),)
+#  PRODUCT_COPY_FILES += device/wiite/$(MTK_TARGET_PROJECT)/EBR2:EBR2
 #endif
-#PRODUCT_COPY_FILES += device/mediateksample/$(MTK_TARGET_PROJECT)/MBR:MBR
-#PRODUCT_COPY_FILES += device/mediateksample/$(MTK_TARGET_PROJECT)/MT6739_Android_scatter.txt:MT6739_Android_scatter.txt
+#PRODUCT_COPY_FILES += device/wiite/$(MTK_TARGET_PROJECT)/MBR:MBR
+#PRODUCT_COPY_FILES += device/wiite/$(MTK_TARGET_PROJECT)/MT6739_Android_scatter.txt:MT6739_Android_scatter.txt
 
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.sf.lcd_density=320
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.sf.lcd_density=160
 
 
 
@@ -87,8 +87,8 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/android.hardware.telephony.gsm.xml:$(TARGET_
 
 
 # Audio Related Resource
-PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/k39tv1_64_bsp/factory/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav:mtk
-PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/k39tv1_64_bsp/factory/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav:mtk
+PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/c7s/factory/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav:mtk
+PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/c7s/factory/res/sound/ringtone.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/ringtone.wav:mtk
 
 
 # Microphone
@@ -102,9 +102,9 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/
 
 
 #Images for LCD test in factory mode
-PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/k39tv1_64_bsp/factory/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png:mtk
-PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/k39tv1_64_bsp/factory/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png:mtk
-PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/k39tv1_64_bsp/factory/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png:mtk
+PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/c7s/factory/res/images/lcd_test_00.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_00.png:mtk
+PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/c7s/factory/res/images/lcd_test_01.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_01.png:mtk
+PRODUCT_COPY_FILES += vendor/mediatek/proprietary/custom/c7s/factory/res/images/lcd_test_02.png:$(TARGET_COPY_OUT_VENDOR)/res/images/lcd_test_02.png:mtk
 
 
 
