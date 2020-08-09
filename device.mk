@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/meta_init.project.rc:$(TARGET_COPY_OUT_VENDO
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.sf.lcd_density=160
 
+PRODUCT_CHARACTERISTICS := nosdcard,watch
 
 
 # alps/vendor/mediatek/proprietary/external/GeoCoding/Android.mk
