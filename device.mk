@@ -20,6 +20,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.sf.lcd_density=160
 
 PRODUCT_CHARACTERISTICS := nosdcard,watch
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.boot.vendor.overlay.theme=com.android.internal.systemui.navbar.gestural
 
 # alps/vendor/mediatek/proprietary/external/GeoCoding/Android.mk
 
