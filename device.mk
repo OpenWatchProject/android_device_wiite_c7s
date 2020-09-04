@@ -18,7 +18,9 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/meta_init.project.rc:$(TARGET_COPY_OUT_VENDO
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.sf.lcd_density=160
 
-
+# Bootanimation
+PRODUCT_PACKAGES += \
+    bootanimation.zip
 
 # alps/vendor/mediatek/proprietary/external/GeoCoding/Android.mk
 
