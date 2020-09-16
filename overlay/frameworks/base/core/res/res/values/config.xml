@@ -24,4 +24,10 @@
     <bool translatable="false" name="config_wifi_dual_band_support">true</bool>
     <!-- Boolean indicating if current platform supports HFP inband ringing -->
     <bool name="config_bluetooth_hfp_inband_ringing_support">true</bool>
+    <!-- Whether the main built-in display is round. This will affect
+         Configuration.screenLayout's SCREENLAYOUT_ROUND_MASK flags for Configurations on the
+         main built-in display. Change this in device-specific overlays.
+         Defaults to the older, deprecated config_windowIsRound already used in
+         some existing device-specific resource overlays. -->
+    <bool name="config_mainBuiltInDisplayIsRound">true</bool>
 </resources>
