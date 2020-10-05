@@ -18,6 +18,10 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/meta_init.project.rc:$(TARGET_COPY_OUT_VENDO
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.sf.lcd_density=160
 
+# Disable on-screen navigation buttons
+PRODUCT_PROPERTY_OVERRIDES += \
+  qemu.hw.mainkeys=1
+
 # Bootanimation
 PRODUCT_PACKAGES += \
     bootanimation.zip
